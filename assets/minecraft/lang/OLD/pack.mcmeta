@@ -1,0 +1,17 @@
+{
+	"pack": {
+		"description": "Classy Stuff (Optifine recommendet)",
+		"pack_format": 46,
+		"supported_formats": {
+			"min_inclusive": 1,
+			"max_inclusive": 999
+		}
+	},
+	"language": {
+		"en_un": {
+			"name": "Unglosh",
+			"region": "Unglynd",
+			"bidirectional": false
+		}
+	}
+}
