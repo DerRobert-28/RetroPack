@@ -32,7 +32,8 @@ for %%i in (
 	iron_block
 	gold_block
 	gold_ore
-	grass_block_bottom
+	grass_block\bottom
+	grass_block\side
 	gray_wool
 	green_wool
 	jungle_log_top

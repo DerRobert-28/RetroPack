@@ -1,6 +1,6 @@
 {
 	"variants": {
-		"snowy=false": { "model": "minecraft:block/grass_block" },
-		"snowy=true": { "model": "minecraft:block/grass_block_snow" }
+		"snowy=false": { "model": "minecraft:block/grass_block/default" },
+		"snowy=true": { "model": "minecraft:block/grass_block/snow" }
 	}
 }
