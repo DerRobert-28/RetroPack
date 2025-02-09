@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="blockstates">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assets/minecraft/blockstates/blockstates.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

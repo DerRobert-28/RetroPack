@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="grass_block_side">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assets/minecraft/textures/block/grass_block/grass_block_side.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
