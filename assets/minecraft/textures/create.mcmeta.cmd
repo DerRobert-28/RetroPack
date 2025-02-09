@@ -1,7 +1,7 @@
 @echo off
 	set mcmeta=%~n0.$$$
 
-:first_mcmeta
+:switching_textures
 	echo.{>%mcmeta%
 	echo.	"animation": {>>%mcmeta%
 	echo.		"interpolate": true,>>%mcmeta%
@@ -29,8 +29,8 @@
 		block\deepslate_lapis_ore
 		block\emerald_block
 		block\emerald_ore
-		block\furnace_side
-		block\furnace_top
+		block\furnace\side
+		block\furnace\top
 		block\iron_block
 		block\gold_block
 		block\gold_ore
@@ -68,7 +68,7 @@
 		item\emerald
 	) do type %mcmeta% >%%i.png.mcmeta
 
-:second_mcmeta
+:animated_textures
 	echo.{>%mcmeta%
 	echo.	"animation": {>>%mcmeta%
 	echo.		"interpolate": true,>>%mcmeta%
@@ -81,7 +81,7 @@
 	echo.	}>>%mcmeta%
 	echo.}>>%mcmeta%
 	for %%i in (
-		block\furnace_front_on
+		block\furnace\front\lit
 		block\jack_o_lantern
 	) do type %mcmeta% >%%i.png.mcmeta
 
