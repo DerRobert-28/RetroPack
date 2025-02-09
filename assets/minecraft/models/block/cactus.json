@@ -1,12 +1,9 @@
 {
-	"parent": "block/cube",
+	"parent": "block/cube_bottom_top",
 	"textures": {
-		"down": "block/cactus/cactus_bottom",
-		"east": "block/cactus/cactus_side",
-		"north": "block/cactus/cactus_side",
-		"particle": "block/cactus/cactus_side",
-		"south": "block/cactus/cactus_side",
-		"up": "block/cactus/cactus_top",
-		"west": "block/cactus/cactus_side"
+		"bottom": "block/cactus/bottom",
+		"particle": "block/cactus/side",
+		"side": "block/cactus/side",
+		"top": "block/cactus/top"
 	}
 }

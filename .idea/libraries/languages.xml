@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="languages">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assets/minecraft/lang/OLD/languages.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

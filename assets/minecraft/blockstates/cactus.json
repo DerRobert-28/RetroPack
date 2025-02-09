@@ -1,7 +1,5 @@
 {
 	"variants": {
-		"": [{
-			"model": "minecraft:block/cactus"
-		}]
+		"": { "model": "minecraft:block/cactus" }
 	}
 }
