@@ -57,6 +57,7 @@ for %%i in (
 	block\red_wool
 	block\smooth_stone
 	block\smooth_stone_slab_side
+	block\spruce_leaves
 	block\spruce_log_top
 	block\torch
 	block\white_wool
