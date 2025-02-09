@@ -29,9 +29,15 @@
 	"block.minecraft.raw_iron_block": "Iron (Ore)", 
 	"block.minecraft.torch": "Ambrosium Torch", 
 	"container.crafting": "Workbench", 
+	"entity.minecraft.zombified_piglin": "Zombie Pigman", 
 	"item.minecraft.coal": "Ambrosium Coal", 
 	"item.minecraft.emerald": "Ruby", 
 	"item.minecraft.raw_gold": "Gold Ore", 
 	"item.minecraft.raw_iron": "Iron Ore", 
+	"item.minecraft.zombified_piglin_spawn_egg": "Zombie Pigman Spawn Egg", 
+	"subtitles.entity.zombified_piglin.ambient": "Zombie Pigman grunts", 
+	"subtitles.entity.zombified_piglin.angry": "Zombie Pigman grunts angrily", 
+	"subtitles.entity.zombified_piglin.death": "Zombie Pigman dies", 
+	"subtitles.entity.zombified_piglin.hurt": "Zombie Pigman hurts", 
 	"trim_material.minecraft.emerald": "Ruby Material" 
 }

@@ -29,9 +29,15 @@
 	"block.minecraft.raw_iron_block": "Eisen (Erz)", 
 	"block.minecraft.torch": "Ambrosiumfackel", 
 	"container.crafting": "Werkbank", 
+	"entity.minecraft.zombified_piglin": "Schweinezombie", 
 	"item.minecraft.coal": "Ambrosiumkohle", 
 	"item.minecraft.emerald": "Rubin", 
 	"item.minecraft.raw_gold": "Golderz", 
 	"item.minecraft.raw_iron": "Eisenerz", 
+	"item.minecraft.zombified_piglin_spawn_egg": "Schweinezombie-Spawn-Ei", 
+	"subtitles.entity.zombified_piglin.ambient": "Schweinezombie grunzt", 
+	"subtitles.entity.zombified_piglin.angry": "Schweinezombie grunzt wütend", 
+	"subtitles.entity.zombified_piglin.death": "Schweinezombie stirbt", 
+	"subtitles.entity.zombified_piglin.hurt": "Schweinezombie wird verletzt", 
 	"trim_material.minecraft.emerald": "Rubinmaterial" 
 }

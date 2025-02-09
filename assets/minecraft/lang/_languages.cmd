@@ -31,10 +31,16 @@ echo.	"block.minecraft.raw_gold_block": "Gold (Erz)", >>%json%
 echo.	"block.minecraft.raw_iron_block": "Eisen (Erz)", >>%json%
 echo.	"block.minecraft.torch": "Ambrosiumfackel", >>%json%
 echo.	"container.crafting": "Werkbank", >>%json%
+echo.	"entity.minecraft.zombified_piglin": "Schweinezombie", >>%json%
 echo.	"item.minecraft.coal": "Ambrosiumkohle", >>%json%
 echo.	"item.minecraft.emerald": "Rubin", >>%json%
 echo.	"item.minecraft.raw_gold": "Golderz", >>%json%
 echo.	"item.minecraft.raw_iron": "Eisenerz", >>%json%
+echo.	"item.minecraft.zombified_piglin_spawn_egg": "Schweinezombie-Spawn-Ei", >>%json%
+echo.	"subtitles.entity.zombified_piglin.ambient": "Schweinezombie grunzt", >>%json%
+echo.	"subtitles.entity.zombified_piglin.angry": "Schweinezombie grunzt wütend", >>%json%
+echo.	"subtitles.entity.zombified_piglin.death": "Schweinezombie stirbt", >>%json%
+echo.	"subtitles.entity.zombified_piglin.hurt": "Schweinezombie wird verletzt", >>%json%
 echo.	"trim_material.minecraft.emerald": "Rubinmaterial" >>%json%
 echo.}>>%json%
 for %%i in (
@@ -73,10 +79,16 @@ echo.	"block.minecraft.raw_gold_block": "Gold (Ore)", >>%json%
 echo.	"block.minecraft.raw_iron_block": "Iron (Ore)", >>%json%
 echo.	"block.minecraft.torch": "Ambrosium Torch", >>%json%
 echo.	"container.crafting": "Workbench", >>%json%
+echo.	"entity.minecraft.zombified_piglin": "Zombie Pigman", >>%json%
 echo.	"item.minecraft.coal": "Ambrosium Coal", >>%json%
 echo.	"item.minecraft.emerald": "Ruby", >>%json%
 echo.	"item.minecraft.raw_gold": "Gold Ore", >>%json%
 echo.	"item.minecraft.raw_iron": "Iron Ore", >>%json%
+echo.	"item.minecraft.zombified_piglin_spawn_egg": "Zombie Pigman Spawn Egg", >>%json%
+echo.	"subtitles.entity.zombified_piglin.ambient": "Zombie Pigman grunts", >>%json%
+echo.	"subtitles.entity.zombified_piglin.angry": "Zombie Pigman grunts angrily", >>%json%
+echo.	"subtitles.entity.zombified_piglin.death": "Zombie Pigman dies", >>%json%
+echo.	"subtitles.entity.zombified_piglin.hurt": "Zombie Pigman hurts", >>%json%
 echo.	"trim_material.minecraft.emerald": "Ruby Material" >>%json%
 echo.}>>%json%
 for %%i in (
