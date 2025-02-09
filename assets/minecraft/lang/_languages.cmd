@@ -15,6 +15,11 @@ echo.	"block.minecraft.deepslate_coal_ore": "Tiefenschiefer Ambrosiumkohle", >>%
 echo.	"block.minecraft.deepslate_emerald_ore": "Tiefenschiefer-Rubinerz", >>%json%
 echo.	"block.minecraft.emerald_block": "Rubinblock", >>%json%
 echo.	"block.minecraft.emerald_ore": "Rubinerz", >>%json%
+echo.	"block.minecraft.end_stone": "Weißer Stein", >>%json%
+echo.	"block.minecraft.end_stone_brick_slab": "Weiße Backsteinstufe", >>%json%
+echo.	"block.minecraft.end_stone_brick_stairs": "Weiße Backsteintreppe", >>%json%
+echo.	"block.minecraft.end_stone_brick_wall": "Weiße Backsteinmauer ", >>%json%
+echo.	"block.minecraft.end_stone_bricks": "Weißer Backstein", >>%json%
 echo.	"block.minecraft.infested_cobblestone": "Befallener Pflasterstein", >>%json%
 echo.	"block.minecraft.mossy_cobblestone": "Moosiger Pflasterstein", >>%json%
 echo.	"block.minecraft.mossy_cobblestone_slab": "Moosige Pflastersteinstufe", >>%json%
@@ -52,6 +57,11 @@ echo.	"block.minecraft.deepslate_coal_ore": "Deepslate Ambrosium Coal", >>%json%
 echo.	"block.minecraft.deepslate_emerald_ore": "Deepslate Ruby Ore", >>%json%
 echo.	"block.minecraft.emerald_block": "Block of Ruby", >>%json%
 echo.	"block.minecraft.emerald_ore": "Ruby Ore", >>%json%
+echo.	"block.minecraft.end_stone": "White Stone", >>%json%
+echo.	"block.minecraft.end_stone_brick_slab": "White Stone Brick Slab", >>%json%
+echo.	"block.minecraft.end_stone_brick_stairs": "White Stone Brick Stairs", >>%json%
+echo.	"block.minecraft.end_stone_brick_wall": "White Stone Brick Wall", >>%json%
+echo.	"block.minecraft.end_stone_bricks": "White Stone Bricks", >>%json%
 echo.	"block.minecraft.infested_cobblestone": "Infested Cobblestone", >>%json%
 echo.	"block.minecraft.mossy_cobblestone": "Mossy Cobblestone", >>%json%
 echo.	"block.minecraft.mossy_cobblestone_slab": "Mossy Cobblestone Slab", >>%json%
