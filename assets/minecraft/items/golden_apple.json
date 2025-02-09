@@ -1,0 +1,13 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "minecraft:item/golden_apple/default"
+	},
+	"overrides": [{
+		"predicate": { ":enchantment_glint_override": 1 },
+		"model": "minecraft:item/golden_apple/default"
+	}, {
+		"predicate": { "minecraft:enchantment_glint_override": 1 },
+		"model": "minecraft:item/golden_apple/default"
+	}]
+}

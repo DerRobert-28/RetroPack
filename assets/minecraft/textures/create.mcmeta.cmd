@@ -1,6 +1,16 @@
 @echo off
 	set mcmeta=%~n0.$$$
 
+:default_mcmeta
+	echo.{>%mcmeta%
+	echo.	"animation": {>>%mcmeta%
+	echo.		"interpolate": false>>%mcmeta%
+	echo.	}>>%mcmeta%
+	echo.}>>%mcmeta%
+	for %%i in (
+		item\golden_apple\enchanted
+	) do type %mcmeta% >%%i.png.mcmeta
+
 :switching_textures
 	echo.{>%mcmeta%
 	echo.	"animation": {>>%mcmeta%
