@@ -89,7 +89,9 @@
 	echo.			{ "index": 1, "time": 12000 },>>%mcmeta%
 	echo.			{ "index": 1, "time": 200 }, >>%mcmeta%
 	echo.			{ "index": 2, "time": 12000 },>>%mcmeta%
-	echo.			{ "index": 2, "time": 200 }>>%mcmeta%
+	echo.			{ "index": 2, "time": 200 },>>%mcmeta%
+	echo.			{ "index": 3, "time": 12000 },>>%mcmeta%
+	echo.			{ "index": 3, "time": 200 }>>%mcmeta%
 	echo.		]>>%mcmeta%
 	echo.	}>>%mcmeta%
 	echo.}>>%mcmeta%
