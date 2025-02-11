@@ -11,7 +11,7 @@
 		item\golden_apple\enchanted
 	) do type %mcmeta% >%%i.png.mcmeta
 
-:switching_textures
+:switching_textures1
 	echo.{>%mcmeta%
 	echo.	"animation": {>>%mcmeta%
 	echo.		"interpolate": true,>>%mcmeta%
@@ -76,6 +76,25 @@
 		block\yellow_wool
 		item\coal
 		item\emerald
+	) do type %mcmeta% >%%i.png.mcmeta
+
+
+:switching_textures2
+	echo.{>%mcmeta%
+	echo.	"animation": {>>%mcmeta%
+	echo.		"interpolate": true,>>%mcmeta%
+	echo.		"frames": [>>%mcmeta%
+	echo.			{ "index": 0, "time": 12000 },>>%mcmeta%
+	echo.			{ "index": 0, "time": 200 },>>%mcmeta%
+	echo.			{ "index": 1, "time": 12000 },>>%mcmeta%
+	echo.			{ "index": 1, "time": 200 }, >>%mcmeta%
+	echo.			{ "index": 2, "time": 12000 },>>%mcmeta%
+	echo.			{ "index": 2, "time": 200 }>>%mcmeta%
+	echo.		]>>%mcmeta%
+	echo.	}>>%mcmeta%
+	echo.}>>%mcmeta%
+	for %%i in (
+		block\gravel
 	) do type %mcmeta% >%%i.png.mcmeta
 
 :animated_textures
