@@ -47,7 +47,7 @@ for %%i in (
 	de_at
 	de_ch
 	de_de
-) do type %json% >%%i.json
+) do type %json% lang\>%%i.json
 echo.{>%json%
 echo.	"block.minecraft.coal_ore": "Ambrosium Coal", >>%json%
 echo.	"block.minecraft.cobbled_deepslate": "Cobbled Deepslate", >>%json%
@@ -102,5 +102,5 @@ for %%i in (
 	en_us
 	enp
 	enws
-) do type %json% >%%i.json
+) do type %json% >lang\%%i.json
 del %json%
