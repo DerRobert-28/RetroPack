@@ -1,8 +1,6 @@
 {
-	"variants": {
-		"": [
-			{ "model": "minecraft:block/deepslate_coal/deepslate_coal1" },
-			{ "model": "minecraft:block/deepslate_coal/deepslate_coal2" }
-		]
-	}
+	"variants": { "": [
+		{ "model": "minecraft:block/deepslate_coal/deepslate_coal1" },
+		{ "model": "minecraft:block/deepslate_coal/deepslate_coal2" }
+	]}
 }

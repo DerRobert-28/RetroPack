@@ -1,8 +1,6 @@
 {
-	"variants": {
-		"": [
-			{ "model": "minecraft:block/oak_sapling/oak_sapling1" },
-			{ "model": "minecraft:block/oak_sapling/oak_sapling2" }
-		]
-	}
+	"variants": { "": [
+		{ "model": "minecraft:block/oak_sapling/oak_sapling1" },
+		{ "model": "minecraft:block/oak_sapling/oak_sapling2" }
+	]}
 }

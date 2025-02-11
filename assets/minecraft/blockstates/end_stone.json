@@ -1,5 +1,5 @@
 {
-	"variants": {
-		"": { "model": "minecraft:block/white_stone" }
-	}
+	"variants": { "": {
+		"model": "minecraft:block/white_stone"
+	}}
 }
