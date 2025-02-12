@@ -1,5 +1,6 @@
 @echo off
-set json=%~n0.$$$
+:preparation:
+	set json=%~n0.$$$
 
 :english_language
 	echo.{>%json%
@@ -110,17 +111,24 @@ set json=%~n0.$$$
 		de_de
 	) do type %json% >lang\%%i.json
 
-:default_textures
+:animated_block_textures
 	echo.{>%json%
 	echo.	"animation": {>>%json%
-	echo.		"interpolate": false>>%json%
+	echo.		"interpolate": true,>>%json%
+	echo.		"frames": [>>%json%
+	echo.			{ "index": 0, "time": 100 },>>%json%
+	echo.			{ "index": 0, "time": 10 },>>%json%
+	echo.			{ "index": 1, "time": 20 },>>%json%
+	echo.			{ "index": 1, "time": 10 }>>%json%
+	echo.		]>>%json%
 	echo.	}>>%json%
 	echo.}>>%json%
 	for %%i in (
-		golden_apple\enchanted
-	) do type %json% >textures\item\%%i.png.mcmeta
+		furnace\front\lit
+		jack_o_lantern
+	) do type %json% >textures\block\%%i.png.mcmeta
 
-:switching_textures1
+:switching_block_textures1
 	echo.{>%json%
 	echo.	"animation": {>>%json%
 	echo.		"interpolate": true,>>%json%
@@ -133,61 +141,59 @@ set json=%~n0.$$$
 	echo.	}>>%json%
 	echo.}>>%json%
 	for %%i in (
-		block\birch_leaves
-		block\birch_log_top
-		block\black_wool
-		block\blue_wool
-		block\brown_wool
-		block\coal_ore
-		block\cobblestone
-		block\cyan_wool
-		block\dead_bush
-		block\deepslate_coal_ore
-		block\deepslate_emerald_ore
-		block\deepslate_gold_ore
-		block\deepslate_lapis_ore
-		block\emerald_block
-		block\emerald_ore
-		block\furnace\side
-		block\furnace\top
-		block\iron_block
-		block\gold_block
-		block\gold_ore
-		block\grass_block\bottom
-		block\grass_block\side
-		block\gray_wool
-		block\green_wool
-		block\jungle_log_top
-		block\lapis_ore
-		block\light_blue_wool
-		block\light_gray_wool
-		block\lime_wool
-		block\magenta_wool
-		block\mossy_cobblestone
-		block\mossy_stone_bricks
-		block\nether_gold_ore
-		block\oak_leaves
-		block\oak_planks
-		block\oak_sapling
-		block\orange_wool
-		block\pink_wool
-		block\planks
-		block\poppy
-		block\purple_wool
-		block\raw_gold_block
-		block\red_wool
-		block\smooth_stone
-		block\smooth_stone_slab_side
-		block\spruce_leaves
-		block\spruce_log_top
-		block\torch
-		block\white_wool
-		block\yellow_wool
-		item\coal
-		item\emerald
-	) do type %json% >textures\%%i.png.mcmeta
+		birch_leaves
+		birch_log_top
+		black_wool
+		blue_wool
+		brown_wool
+		coal_ore
+		cobblestone
+		cyan_wool
+		dead_bush
+		deepslate_coal_ore
+		deepslate_emerald_ore
+		deepslate_gold_ore
+		deepslate_lapis_ore
+		emerald_block
+		emerald_ore
+		furnace\side
+		furnace\top
+		iron_block
+		gold_block
+		gold_ore
+		grass_block\bottom
+		grass_block\side
+		gray_wool
+		green_wool
+		jungle_log_top
+		lapis_ore
+		light_blue_wool
+		light_gray_wool
+		lime_wool
+		magenta_wool
+		mossy_cobblestone
+		mossy_stone_bricks
+		nether_gold_ore
+		oak_leaves
+		oak_planks
+		oak_sapling
+		orange_wool
+		pink_wool
+		planks
+		poppy
+		purple_wool
+		raw_gold_block
+		red_wool
+		smooth_stone
+		smooth_stone_slab_side
+		spruce_leaves
+		spruce_log_top
+		torch
+		white_wool
+		yellow_wool
+	) do type %json% >textures\block\%%i.png.mcmeta
 
-:switching_textures2
+:switching_block_textures2
 	echo.{>%json%
 	echo.	"animation": {>>%json%
 	echo.		"interpolate": true,>>%json%
@@ -204,25 +210,35 @@ set json=%~n0.$$$
 	echo.	}>>%json%
 	echo.}>>%json%
 	for %%i in (
-		block\gravel
-	) do type %json% >textures\%%i.png.mcmeta
+		gravel
+	) do type %json% >textures\block\%%i.png.mcmeta
 
-:animated_textures
+:animated_item_textures
+	echo.{>%json%
+	echo.	"animation": {>>%json%
+	echo.		"interpolate": false>>%json%
+	echo.	}>>%json%
+	echo.}>>%json%
+	for %%i in (
+		golden_apple\enchanted
+	) do type %json% >textures\item\%%i.png.mcmeta
+
+:switching_item_textures
 	echo.{>%json%
 	echo.	"animation": {>>%json%
 	echo.		"interpolate": true,>>%json%
 	echo.		"frames": [>>%json%
-	echo.			{ "index": 0, "time": 100 },>>%json%
-	echo.			{ "index": 0, "time": 10 },>>%json%
-	echo.			{ "index": 1, "time": 20 },>>%json%
-	echo.			{ "index": 1, "time": 10 }>>%json%
+	echo.			{ "index": 0, "time": 12000 },>>%json%
+	echo.			{ "index": 0, "time": 200 },>>%json%
+	echo.			{ "index": 1, "time": 12000 },>>%json%
+	echo.			{ "index": 1, "time": 200 }>>%json%
 	echo.		]>>%json%
 	echo.	}>>%json%
 	echo.}>>%json%
 	for %%i in (
-		block\furnace\front\lit
-		block\jack_o_lantern
-	) do type %json% >textures\%%i.png.mcmeta
+		coal
+		emerald
+	) do type %json% >textures\item\%%i.png.mcmeta
 
 :delete_temporary
 	del %json%
