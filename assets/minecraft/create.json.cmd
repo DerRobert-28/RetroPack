@@ -16,6 +16,7 @@
 	echo.	"block.minecraft.crafting_table": "Workbench",  >>%json%
 	echo.	"block.minecraft.deepslate_coal_ore": "Deepslate Ambrosium Coal", >>%json%
 	echo.	"block.minecraft.deepslate_emerald_ore": "Deepslate Ruby Ore", >>%json%
+	echo.	"block.minecraft.dirt_path": "Grass Path", >>%json%
 	echo.	"block.minecraft.emerald_block": "Block of Ruby", >>%json%
 	echo.	"block.minecraft.emerald_ore": "Ruby Ore", >>%json%
 	echo.	"block.minecraft.end_stone": "White Stone", >>%json%
@@ -74,6 +75,7 @@
 	echo.	"block.minecraft.crafting_table": "Werkbank", >>%json%
 	echo.	"block.minecraft.deepslate_coal_ore": "Tiefenschiefer Ambrosiumkohle", >>%json%
 	echo.	"block.minecraft.deepslate_emerald_ore": "Tiefenschiefer-Rubinerz", >>%json%
+	echo.	"block.minecraft.dirt_path": "Graspfad", >>%json%
 	echo.	"block.minecraft.emerald_block": "Rubinblock", >>%json%
 	echo.	"block.minecraft.emerald_ore": "Rubinerz", >>%json%
 	echo.	"block.minecraft.end_stone": "Weißer Stein", >>%json%
