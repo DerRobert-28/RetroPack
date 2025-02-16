@@ -11,6 +11,7 @@
   - early Release Candidates
 - Recommended Minecraft Version: 1.21.4
 - Special features that recommend [Optifine](https://www.optifine.net)
+- Full feature list will be available soon
 
 ## Main Features
 
@@ -36,13 +37,12 @@
 - Switching Textures (about every 10 minutes)
   - Gravel
   - Stone
-  - Wood Material (Fence, Planks, etc.)
+  - Wooden Material (Fence, Planks, etc.)
 - Miscellaneous:
   - Gold Ore drops Gold Ore Block instead of Raw Gold
   - Gold Ore Blocks have to be smelted into Gold Ingots
   - Iron Ore drops Iron Ore Block instead of Raw Iron
   - Iron Ore Blocks have to be smelted into Iron Ingots
-
 
 ## Download and Installation
 
