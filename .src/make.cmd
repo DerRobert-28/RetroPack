@@ -1,31 +1,19 @@
 @echo off
 	set this=%~dp0
 	set src=%this:~0,-1%
-	set bin=%src%\..
-	set log=%src%\%~n0.log
-	echo MAKE FILE >%log%
-	echo Date: %date% >>%log%
-	echo Time: %time% >>%log%
-	echo. >>%log%
+	set bin=%src%\..\.bin
 
 :clear_root_folders
-	for %%i in (
-		blockstates
-		items
-		lang
-		models
-		optifine
-		textures
-	) do (
-		del /q /s %bin%\%%i\* >>%log% 2>>%log%
-		rmdir /q /s %bin%\%%i >>%log% 2>>%log%
-	)
+	del /q /s "%bin%\*"
+	del /q /s "%bin%\*.*"
+	rmdir /q /s "%bin%"
+	mkdir "%bin%"
 
 :copy_root_files
 	for %%i in (
 		pack.*
 		readme.md
-	) do copy /y %src%\%%i %bin% >>%log% 2>>%log%
+	) do copy "%src%\%%i" "%bin%"
 
 :prepare_folders
 	for %%i in (
@@ -121,7 +109,7 @@
         textures\item\coal
         textures\item\emerald
         textures\item\golden_apple
-	) do mkdir %bin%\%%i >>%log% 2>>%log%
+	) do mkdir "%bin%\%%i"
 
 :copy_json_files
 	for %%i in (
@@ -149,7 +137,7 @@
 		models\item
 		models\item\clock
 		models\item\golden_apple
-	) do copy /y %src%\%%i\*.json %bin\%%i >>%log% 2>>%log%
+	) do copy /y "%src%\%%i\*.json" "%bin\%%i"
 
 :copy_mcmeta_files
 	for %%i in (
@@ -159,7 +147,7 @@
 		textures\block
 		textures\item
 		textures\item\golden_apple
-	) do copy /y %src%\%%i\*.mcmeta %bin\%%i >>%log% 2>>%log%
+	) do copy /y "%src%\%%i\*.mcmeta" "%bin\%%i"
 
 :copy_png_files
 	for %%i in (
@@ -226,7 +214,7 @@
         textures\item\coal
         textures\item\emerald
         textures\item\golden_apple
-	) do copy /y %src%\%%i\*.png %bin\%%i >>%log% 2>>%log%
+	) do copy /y "%src%\%%i\*.png" "%bin\%%i"
 
 :copy_properties_files
 	for %%i in (
@@ -256,7 +244,7 @@
 		textures\entity\spider
 		textures\entity\wither
 		textures\entity\zombie
-	) do copy /y %src%\%%i\*.properties %bin\%%i >>%log% 2>>%log%
+	) do copy /y "%src%\%%i\*.properties" "%bin\%%i"
 
 :finalizing
-	echo Done.>>%log%
+	pause
