@@ -1,19 +1,26 @@
 @echo off
 	set this=%~dp0
+	set assets=assets\minecraft
 	set src=%this:~0,-1%
-	set bin=%src%\..\.bin
+	set bin=%src%\..\bin
 
 :clear_root_folders
-	del /q /s "%bin%\*"
-	del /q /s "%bin%\*.*"
-	rmdir /q /s "%bin%"
-	mkdir "%bin%"
+	del /q /s "%bin%\*" 2>nul
+	del /q /s "%bin%\*.*" 2>nul
+	rmdir /q /s "%bin%" 2>nul
+	mkdir "%bin%" 2>nul
 
 :copy_root_files
 	for %%i in (
 		pack.*
-		readme.md
-	) do copy "%src%\%%i" "%bin%"
+	) do (
+		echo copy "%src%\%%i" "%bin%"
+		copy "%src%\%%i" "%bin%"
+	)
+
+:move_to_assets
+	set src=%src%\%assets%
+	set bin=%bin%\%assets%
 
 :prepare_folders
 	for %%i in (
@@ -109,7 +116,10 @@
         textures\item\coal
         textures\item\emerald
         textures\item\golden_apple
-	) do mkdir "%bin%\%%i"
+	) do (
+		echo mkdir "%bin%\%%i"
+		mkdir "%bin%\%%i"
+	)
 
 :copy_json_files
 	for %%i in (
@@ -137,7 +147,10 @@
 		models\item
 		models\item\clock
 		models\item\golden_apple
-	) do copy /y "%src%\%%i\*.json" "%bin\%%i"
+	) do (
+		echo copy /y "%src%\assets\minecraft\%%i\*.json" "%bin%\assets\minecraft\%%i"
+		copy /y "%src%\assets\minecraft\%%i\*.json" "%bin%\assets\minecraft\%%i"
+	)
 
 :copy_mcmeta_files
 	for %%i in (
@@ -147,7 +160,10 @@
 		textures\block
 		textures\item
 		textures\item\golden_apple
-	) do copy /y "%src%\%%i\*.mcmeta" "%bin\%%i"
+	) do (
+		echo copy /y "%src%\assets\minecraft\%%i\*.mcmeta" "%bin%\assets\minecraft\%%i"
+		copy /y "%src%\assets\minecraft\%%i\*.mcmeta" "%bin%\assets\minecraft\%%i"
+	)
 
 :copy_png_files
 	for %%i in (
@@ -214,7 +230,10 @@
         textures\item\coal
         textures\item\emerald
         textures\item\golden_apple
-	) do copy /y "%src%\%%i\*.png" "%bin\%%i"
+	) do (
+		echo copy /y "%src%\%%i\*.png" "%bin%\%%i"
+		copy /y "%src%\%%i\*.png" "%bin%\%%i"
+	)
 
 :copy_properties_files
 	for %%i in (
@@ -244,7 +263,7 @@
 		textures\entity\spider
 		textures\entity\wither
 		textures\entity\zombie
-	) do copy /y "%src%\%%i\*.properties" "%bin\%%i"
-
-:finalizing
-	pause
+	) do (
+		echo copy /y "%src%\%%i\*.properties" "%bin%\%%i"
+		copy /y "%src%\%%i\*.properties" "%bin%\%%i"
+	)
