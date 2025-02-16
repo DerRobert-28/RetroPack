@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "minecraft:item/coal",
-		"coal": "minecraft:item/coal/coal1",
-		"ambrosium": "minecraft:item/coal/coal2"
-	}
-}
