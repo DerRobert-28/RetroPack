@@ -9,7 +9,8 @@
   - Minecraft Indev & Infdev
   - Minecraft Alpha & Beta
   - early Release Candidates
-- Special features that recommend Optifine
+- Recommended Minecraft Version: 1.21.4
+- Special features that recommend [Optifine](https://www.optifine.net)
 
 ## Main Features
 
