@@ -112,6 +112,7 @@
         textures\gui\sprites\hud
         textures\gui\sprites\hud\heart
         textures\gui\title
+        textures\gui\title\background
         textures\item
         textures\item\clock
         textures\item\coal
@@ -226,6 +227,7 @@
         textures\gui\sprites\hud
         textures\gui\sprites\hud\heart
         textures\gui\title
+        textures\gui\title\background
         textures\item
         textures\item\clock
         textures\item\coal
