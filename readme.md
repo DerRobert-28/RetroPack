@@ -2,8 +2,8 @@
 
 ## Short Description
 
-- First internal version: 0.25.06
-- Current Version: 0.25.11
+- First internal version: v25w06
+- Current Version: v25w11
 - Stuff from older Minecraft Versions including
   - first Classic Versions
   - Minecraft Indev & Infdev
