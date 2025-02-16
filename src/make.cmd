@@ -276,7 +276,7 @@
 	jar -cfM ..\RetroPack.zip .
 
 :delete_bin_folder
-	cd ..
-	del /q /s "%zip%\*" 2>nul
-	del /q /s "%zip%\*.*" 2>nul
-	rmdir /q /s "%zip%" 2>nul
+	rem cd ..
+	rem del /q /s "%zip%\*" 2>nul
+	rem del /q /s "%zip%\*.*" 2>nul
+	rem rmdir /q /s "%zip%" 2>nul
