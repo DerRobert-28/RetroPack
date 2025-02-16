@@ -47,7 +47,7 @@
 ## Download and Installation
 
 - Download the ZIP-File in [Releases](https://github.com/DerRobert-28/RetroPack/releases) section,
-  or alternatively [here](https://github.com/DerRobert-28/RetroPack/blob/master/RetroPack.zip) 
+  or alternatively [here](https://github.com/DerRobert-28/RetroPack/blob/master/RetroPack.zip). 
 - Move the ZIP-File into your `%appdata%\.minecraft\resourcepacks`-Folder.
 - Start Minecraft and choose RetroPack as resource pack.
 - It is recommendet to put it at first position.
