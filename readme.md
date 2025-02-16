@@ -4,7 +4,7 @@
 
 - First internal version: `v25w06`.
 - Current Version: `v25w11`.
-- Stuff from older Minecraft Versions including:
+- Classy stuff from older Minecraft Versions including:
   - first Classic Versions
   - Minecraft Indev & Infdev
   - Minecraft Alpha & Beta
@@ -51,3 +51,4 @@
 - Move the ZIP-File into your `%appdata%\.minecraft\resourcepacks`-Folder.
 - Start Minecraft and choose RetroPack as resource pack.
 - It is recommendet to put it at first position.
+- For any feedback feel free to open an [Issue](https://github.com/DerRobert-28/RetroPack/issues).
