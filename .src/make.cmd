@@ -13,6 +13,7 @@
 	) do (
 		del /q /s %bin%\%%i\* 2>nul
 		rmdir /q /s %bin%\%%i 2>nul
-		mkdir /q /s %bin%\%%i 2>nul
+		mkdir %bin%\%%i
 	)
+pause
 
