@@ -4,7 +4,7 @@
 
 - First internal version: `v25w06`.
 - Current Version: `v25w11`.
-- Stuff from older Minecraft Versions including:
+- Classy stuff from older Minecraft Versions including:
   - first Classic Versions
   - Minecraft Indev & Infdev
   - Minecraft Alpha & Beta
