@@ -2,14 +2,16 @@
 
 ## Short Description
 
-- First internal version: 0.25.06
-- Current Version: 0.25.11
-- Stuff from older Minecraft Versions including
+- First internal version: `v25w06`.
+- Current Version: `v25w11`.
+- Stuff from older Minecraft Versions including:
   - first Classic Versions
   - Minecraft Indev & Infdev
   - Minecraft Alpha & Beta
   - early Release Candidates
-- Special features that recommend Optifine
+- Recommended Minecraft Version: `1.21.4`.
+- Special features that recommend [Optifine](https://www.optifine.net).
+- Full feature list will be available soon.
 
 ## Main Features
 
@@ -35,17 +37,17 @@
 - Switching Textures (about every 10 minutes)
   - Gravel
   - Stone
-  - Wood Material (Fence, Planks, etc.)
+  - Wooden Material (Fence, Planks, etc.)
 - Miscellaneous:
-  - Gold Ore drops Gold Ore Block instead of Raw Gold
-  - Gold Ore Blocks have to be smelted into Gold Ingots
-  - Iron Ore drops Iron Ore Block instead of Raw Iron
-  - Iron Ore Blocks have to be smelted into Iron Ingots
-
+  - Gold Ores drop Gold Ore Blocks instead of Raw Gold.
+  - Gold Ore Blocks have to be smelted into Gold Ingots.
+  - Iron Ores drop Iron Ore Blocks instead of Raw Iron.
+  - Iron Ore Blocks have to be smelted into Iron Ingots.
 
 ## Download and Installation
 
-- Download the ZIP-File in [Releases](https://github.com/DerRobert-28/RetroPack/releases) section.
+- Download the ZIP-File in [Releases](https://github.com/DerRobert-28/RetroPack/releases) section,
+  or alternatively [here](https://github.com/DerRobert-28/RetroPack/blob/master/RetroPack.zip). 
 - Move the ZIP-File into your `%appdata%\.minecraft\resourcepacks`-Folder.
 - Start Minecraft and choose RetroPack as resource pack.
 - It is recommendet to put it at first position.
