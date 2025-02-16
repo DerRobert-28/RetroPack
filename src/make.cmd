@@ -150,8 +150,8 @@
 		models\item\clock
 		models\item\golden_apple
 	) do (
-		echo copy /y "%src%\assets\minecraft\%%i\*.json" "%bin%\assets\minecraft\%%i"
-		copy /y "%src%\assets\minecraft\%%i\*.json" "%bin%\assets\minecraft\%%i"
+		echo copy /y "%src%\%%i\*.json" "%bin%\%%i"
+		copy /y "%src%\%%i\*.json" "%bin%\%%i"
 	)
 
 :copy_mcmeta_files
@@ -163,8 +163,8 @@
 		textures\item
 		textures\item\golden_apple
 	) do (
-		echo copy /y "%src%\assets\minecraft\%%i\*.mcmeta" "%bin%\assets\minecraft\%%i"
-		copy /y "%src%\assets\minecraft\%%i\*.mcmeta" "%bin%\assets\minecraft\%%i"
+		echo copy /y "%src%\%%i\*.mcmeta" "%bin%\%%i"
+		copy /y "%src%\%%i\*.mcmeta" "%bin%\%%i"
 	)
 
 :copy_png_files
