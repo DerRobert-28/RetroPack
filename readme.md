@@ -51,3 +51,4 @@
 - Move the ZIP-File into your `%appdata%\.minecraft\resourcepacks`-Folder.
 - Start Minecraft and choose RetroPack as resource pack.
 - It is recommendet to put it at first position.
+- For any feedback feel free to open an [Issue](https://github.com/DerRobert-28/RetroPack/issues).
