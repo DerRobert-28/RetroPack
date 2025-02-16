@@ -3,6 +3,7 @@
 	set assets=assets\minecraft
 	set src=%this:~0,-1%
 	set bin=%src%\..\bin
+	set zip=%bin%
 
 :clear_root_folders
 	del /q /s "%bin%\*" 2>nul
@@ -267,3 +268,7 @@
 		echo copy /y "%src%\%%i\*.properties" "%bin%\%%i"
 		copy /y "%src%\%%i\*.properties" "%bin%\%%i"
 	)
+
+:finalizing
+	cd %zip%
+	jar -cfM ..\RetroPack.zip .
