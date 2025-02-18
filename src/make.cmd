@@ -51,6 +51,9 @@
 		models\item\clock
 		models\item\golden_apple
 		optifine
+		optifine\cit
+		optifine\cit\emerald_pickaxe
+		optifine\cit\ruby_pickaxe
 		optifine\mob
 		optifine\mob\chest
 		optifine\mob\cow
@@ -169,6 +172,8 @@
 
 :copy_png_files
 	for %%i in (
+		optifine\cit\emerald_pickaxe
+		optifine\cit\ruby_pickaxe
 		optifine\mob
 		optifine\mob\chest
 		optifine\mob\cow
@@ -240,6 +245,8 @@
 
 :copy_properties_files
 	for %%i in (
+		optifine\cit\emerald_pickaxe
+		optifine\cit\ruby_pickaxe
 		optifine\mob\cow
 		optifine\mob\creaking
 		optifine\mob\creeper
