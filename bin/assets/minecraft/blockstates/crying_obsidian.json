@@ -1,5 +1,5 @@
 {
-	"variants": { "": {
-		"model": "minecraft:block/obsidian/crying"
-	}}
+	"variants": {
+		"": { "model": "minecraft:block/obsidian/crying" }
+	}
 }

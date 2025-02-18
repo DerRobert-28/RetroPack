@@ -1,0 +1,11 @@
+{
+	"variants": {
+		"": [
+			{ "model": "minecraft:block/bookshelf/default" },
+			{ "model": "minecraft:block/bookshelf/east" },
+			{ "model": "minecraft:block/bookshelf/north" },
+			{ "model": "minecraft:block/bookshelf/south" },
+			{ "model": "minecraft:block/bookshelf/west" }
+		]
+	}
+}

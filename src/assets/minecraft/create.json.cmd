@@ -147,6 +147,7 @@
 		birch_log_top
 		black_wool
 		blue_wool
+		bookshelf\side
 		brown_wool
 		coal_ore
 		cobblestone
