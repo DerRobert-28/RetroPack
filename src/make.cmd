@@ -53,6 +53,7 @@
 		optifine
 		optifine\cit
 		optifine\cit\emerald_pickaxe
+		optifine\cit\ruby
 		optifine\cit\ruby_pickaxe
 		optifine\mob
 		optifine\mob\chest
@@ -173,6 +174,7 @@
 :copy_png_files
 	for %%i in (
 		optifine\cit\emerald_pickaxe
+		optifine\cit\ruby
 		optifine\cit\ruby_pickaxe
 		optifine\mob
 		optifine\mob\chest
@@ -246,6 +248,7 @@
 :copy_properties_files
 	for %%i in (
 		optifine\cit\emerald_pickaxe
+		optifine\cit\ruby
 		optifine\cit\ruby_pickaxe
 		optifine\mob\cow
 		optifine\mob\creaking
