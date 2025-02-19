@@ -130,7 +130,7 @@
 		jack_o_lantern
 	) do type %json% >textures\block\%%i.png.mcmeta
 
-:switching_block_textures1
+:switching_block_textures_2_frames
 	echo.{>%json%
 	echo.	"animation": {>>%json%
 	echo.		"interpolate": true,>>%json%
@@ -147,7 +147,16 @@
 		birch_log_top
 		black_wool
 		blue_wool
+		bookshelf\back
+		bookshelf\front
 		bookshelf\side
+		bookshelf\chiseled\default
+		bookshelf\chiseled\slot_0_occupied
+		bookshelf\chiseled\slot_1_occupied
+		bookshelf\chiseled\slot_2_occupied
+		bookshelf\chiseled\slot_3_occupied
+		bookshelf\chiseled\slot_4_occupied
+		bookshelf\chiseled\slot_5_occupied
 		brown_wool
 		coal_ore
 		cobblestone
@@ -196,7 +205,7 @@
 		yellow_wool
 	) do type %json% >textures\block\%%i.png.mcmeta
 
-:switching_block_textures2
+:switching_block_textures_4_frames
 	echo.{>%json%
 	echo.	"animation": {>>%json%
 	echo.		"interpolate": true,>>%json%

@@ -169,6 +169,7 @@
 :copy_mcmeta_files
 	for %%i in (
 		textures\block\bookshelf
+		textures\block\bookshelf\chiseled
 		textures\block\furnace
 		textures\block\furnace\front
 		textures\block\grass_block
