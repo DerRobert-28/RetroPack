@@ -1,0 +1,9 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"bottom": "minecraft:block/bookshelf/side",
+		"particle": "minecraft:block/bookshelf/side",
+		"side": "minecraft:block/bookshelf/front",
+		"top": "minecraft:block/bookshelf/side"
+	}
+}

@@ -30,6 +30,8 @@
 		lang
 		models
 		models\block
+		models\block\bookshelf
+		models\block\bookshelf\chiseled
 		models\block\chest
 		models\block\chest\left
 		models\block\chest\right
@@ -51,6 +53,12 @@
 		models\item\clock
 		models\item\golden_apple
 		optifine
+		optifine\cit
+		optifine\cit\diamond
+		optifine\cit\emerald
+		optifine\cit\emerald_pickaxe
+		optifine\cit\ruby
+		optifine\cit\ruby_pickaxe
 		optifine\mob
 		optifine\mob\chest
 		optifine\mob\cow
@@ -70,6 +78,8 @@
 		textures
 		textures\block
 		textures\block\basalt
+		textures\block\bookshelf
+		textures\block\bookshelf\chiseled
 		textures\block\cactus
 		textures\block\chest
 		textures\block\chest\left
@@ -129,6 +139,8 @@
 		items
 		lang
 		models\block
+		models\block\bookshelf
+		models\block\bookshelf\chiseled
 		models\block\chest
 		models\block\chest\left
 		models\block\chest\right
@@ -156,6 +168,8 @@
 
 :copy_mcmeta_files
 	for %%i in (
+		textures\block\bookshelf
+		textures\block\bookshelf\chiseled
 		textures\block\furnace
 		textures\block\furnace\front
 		textures\block\grass_block
@@ -169,6 +183,11 @@
 
 :copy_png_files
 	for %%i in (
+		optifine\cit\diamond
+		optifine\cit\emerald
+		optifine\cit\emerald_pickaxe
+		optifine\cit\ruby
+		optifine\cit\ruby_pickaxe
 		optifine\mob
 		optifine\mob\chest
 		optifine\mob\cow
@@ -187,6 +206,8 @@
 		optifine\mob\zombie
 		textures\block
 		textures\block\basalt
+		textures\block\bookshelf
+		textures\block\bookshelf\chiseled
 		textures\block\cactus
 		textures\block\chest
 		textures\block\chest\left
@@ -240,6 +261,11 @@
 
 :copy_properties_files
 	for %%i in (
+		optifine\cit\diamond
+		optifine\cit\emerald
+		optifine\cit\emerald_pickaxe
+		optifine\cit\ruby
+		optifine\cit\ruby_pickaxe
 		optifine\mob\cow
 		optifine\mob\creaking
 		optifine\mob\creeper
@@ -273,10 +299,14 @@
 
 :finalizing
 	cd %zip%
-	jar -cfM ..\RetroPack.zip .
+	jar cfM ..\RetroPack.zip .
+	goto end
+	rem jar -cfM ..\RetroPack.zip .
 
 :delete_bin_folder
-	cd ..
-	del /q /s "%zip%\*" 2>nul
-	del /q /s "%zip%\*.*" 2>nul
-	rmdir /q /s "%zip%" 2>nul
+	rem cd ..
+	rem del /q /s "%zip%\*" 2>nul
+	rem del /q /s "%zip%\*.*" 2>nul
+	rem rmdir /q /s "%zip%" 2>nul
+
+:end
