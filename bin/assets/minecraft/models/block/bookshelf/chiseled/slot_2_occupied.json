@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "minecraft:block/bookshelf/chiseled/slot_2_occupied",
+		"side": "minecraft:block/bookshelf/side",
+		"top": "minecraft:block/bookshelf/side"
+	}
+}
