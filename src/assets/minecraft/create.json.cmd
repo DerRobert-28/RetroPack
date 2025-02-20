@@ -38,6 +38,7 @@
 	echo.	"container.crafting": "Workbench", >>%json%
 	echo.	"entity.minecraft.zombified_piglin": "Zombie Pigman", >>%json%
 	echo.	"item.minecraft.coal": "Ambrosium Coal", >>%json%
+	echo.	"item.minecraft.creeper_spawn_egg": "Spawn Egg #50", >>%json%
 	echo.	"item.minecraft.emerald": "Ruby", >>%json%
 	echo.	"item.minecraft.raw_gold": "Gold Ore", >>%json%
 	echo.	"item.minecraft.raw_iron": "Iron Ore", >>%json%
@@ -97,6 +98,7 @@
 	echo.	"container.crafting": "Werkbank", >>%json%
 	echo.	"entity.minecraft.zombified_piglin": "Schweinezombie", >>%json%
 	echo.	"item.minecraft.coal": "Ambrosiumkohle", >>%json%
+	echo.	"item.minecraft.creeper_spawn_egg": "Spawn-Ei #50", >>%json%
 	echo.	"item.minecraft.emerald": "Rubin", >>%json%
 	echo.	"item.minecraft.raw_gold": "Golderz", >>%json%
 	echo.	"item.minecraft.raw_iron": "Eisenerz", >>%json%

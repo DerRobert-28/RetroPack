@@ -52,13 +52,17 @@
 		models\item
 		models\item\clock
 		models\item\golden_apple
+		models\item\spawn_egg
 		optifine
 		optifine\cit
 		optifine\cit\diamond
 		optifine\cit\emerald
-		optifine\cit\emerald_pickaxe
+		optifine\cit\pickaxe
+		optifine\cit\pickaxe\emerald
+		optifine\cit\pickaxe\ruby
 		optifine\cit\ruby
-		optifine\cit\ruby_pickaxe
+		optifine\cit\spawn_egg
+		optifine\cit\spawn_egg\creeper
 		optifine\mob
 		optifine\mob\chest
 		optifine\mob\cow
@@ -128,6 +132,7 @@
         textures\item\coal
         textures\item\emerald
         textures\item\golden_apple
+        textures\item\spawn_egg
 	) do (
 		echo mkdir "%bin%\%%i"
 		mkdir "%bin%\%%i"
@@ -161,6 +166,7 @@
 		models\item
 		models\item\clock
 		models\item\golden_apple
+		models\item\spawn_egg
 	) do (
 		echo copy /y "%src%\%%i\*.json" "%bin%\%%i"
 		copy /y "%src%\%%i\*.json" "%bin%\%%i"
@@ -185,9 +191,10 @@
 	for %%i in (
 		optifine\cit\diamond
 		optifine\cit\emerald
-		optifine\cit\emerald_pickaxe
+		optifine\cit\pickaxe\emerald
+		optifine\cit\pickaxe\ruby
 		optifine\cit\ruby
-		optifine\cit\ruby_pickaxe
+		optifine\cit\spawn_egg\creeper
 		optifine\mob
 		optifine\mob\chest
 		optifine\mob\cow
@@ -254,6 +261,7 @@
         textures\item\coal
         textures\item\emerald
         textures\item\golden_apple
+        textures\item\spawn_egg
 	) do (
 		echo copy /y "%src%\%%i\*.png" "%bin%\%%i"
 		copy /y "%src%\%%i\*.png" "%bin%\%%i"
@@ -263,9 +271,10 @@
 	for %%i in (
 		optifine\cit\diamond
 		optifine\cit\emerald
-		optifine\cit\emerald_pickaxe
+		optifine\cit\pickaxe\emerald
+		optifine\cit\pickaxe\ruby
+		optifine\cit\spawn_egg\creeper
 		optifine\cit\ruby
-		optifine\cit\ruby_pickaxe
 		optifine\mob\cow
 		optifine\mob\creaking
 		optifine\mob\creeper
