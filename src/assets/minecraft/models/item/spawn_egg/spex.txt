@@ -1,0 +1,163 @@
+blaze.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/61"
+	}
+}
+cave_spider.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/59"
+	}
+}
+chicken.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/1"
+	}
+}
+cow.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/92"
+	}
+}
+creeper.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/50"
+	}
+}
+enderman.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/58"
+	}
+}
+ghast.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/24"
+	}
+}
+magma_cube.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/2"
+	}
+}
+mooshroom.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/4"
+	}
+}
+pig.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/30"
+	}
+}
+sheep.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/91"
+	}
+}
+silverfish.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/0"
+	}
+}
+skeleton.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/19"
+	}
+}
+slime.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/55"
+	}
+}
+spider.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/52"
+	}
+}
+squid.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/2"
+	}
+}
+villager.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/28"
+	}
+}
+wolf.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/35"
+	}
+}
+zombie.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/54"
+	}
+}
+zombie_pigman.json 
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/spawn_egg/57"
+	}
+}
+
+
+
+blaze.json minecraft:item/spawn_egg/61
+cave_spider.json minecraft:item/spawn_egg/59
+chicken.json	minecraft:item/spawn_egg/1
+cow.json 			minecraft:item/spawn_egg/92
+creeper.json minecraft:item/spawn_egg/50"
+enderman.json minecraft:item/spawn_egg/58"
+ghast.json  minecraft:item/spawn_egg/24"
+magma_cube.json minecraft:item/spawn_egg/2"
+mooshroom.json minecraft:item/spawn_egg/4"
+pig.json minecraft:item/spawn_egg/30"
+sheep.json minecraft:item/spawn_egg/91"
+silverfish.json minecraft:item/spawn_egg/0"
+skeleton.json minecraft:item/spawn_egg/19"
+slime.json minecraft:item/spawn_egg/55"
+spider.json minecraft:item/spawn_egg/52"
+squid.json minecraft:item/spawn_egg/2"
+villager.json minecraft:item/spawn_egg/28"
+wolf.json minecraft:item/spawn_egg/35"
+zombie.json minecraft:item/spawn_egg/54"
+zombie_pigman.json minecraft:item/spawn_egg/57"

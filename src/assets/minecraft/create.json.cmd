@@ -37,11 +37,30 @@
 	echo.	"block.minecraft.torch": "Ambrosium Torch", >>%json%
 	echo.	"container.crafting": "Workbench", >>%json%
 	echo.	"entity.minecraft.zombified_piglin": "Zombie Pigman", >>%json%
+	echo.	"item.minecraft.blaze_spawn_egg": "Spawn Egg #61", >>%json%
 	echo.	"item.minecraft.coal": "Ambrosium Coal", >>%json%
+	echo.	"item.minecraft.cave_spider_spawn_egg": "Spawn Egg #59", >>%json%
+	echo.	"item.minecraft.chicken_spawn_egg": "Spawn Egg #1", >>%json%
+	echo.	"item.minecraft.cow_spawn_egg": "Spawn Egg #92", >>%json%
 	echo.	"item.minecraft.creeper_spawn_egg": "Spawn Egg #50", >>%json%
 	echo.	"item.minecraft.emerald": "Ruby", >>%json%
+	echo.	"item.minecraft.enderman_spawn_egg": "Spawn Egg #58", >>%json%
+	echo.	"item.minecraft.ghast_spawn_egg": "Spawn Egg #24", >>%json%
+	echo.	"item.minecraft.magma_cube_spawn_egg": "Spawn Egg #2", >>%json%
+	echo.	"item.minecraft.mooshroom_spawn_egg": "Spawn Egg #4", >>%json%
+	echo.	"item.minecraft.pig_spawn_egg": "Spawn Egg #30", >>%json%
 	echo.	"item.minecraft.raw_gold": "Gold Ore", >>%json%
 	echo.	"item.minecraft.raw_iron": "Iron Ore", >>%json%
+	echo.	"item.minecraft.sheep_spawn_egg": "Spawn Egg #91", >>%json%
+	echo.	"item.minecraft.silverfish_spawn_egg": "Spawn Egg #0", >>%json%
+	echo.	"item.minecraft.skeleton_spawn_egg": "Spawn Egg #19", >>%json%
+	echo.	"item.minecraft.slime_spawn_egg": "Spawn Egg #55", >>%json%
+	echo.	"item.minecraft.spider_spawn_egg": "Spawn Egg #52", >>%json%
+	echo.	"item.minecraft.squid_spawn_egg": "Spawn Egg #2", >>%json%
+	echo.	"item.minecraft.villager_spawn_egg": "Spawn Egg #28", >>%json%
+	echo.	"item.minecraft.wolf_spawn_egg": "Spawn Egg #35", >>%json%
+	echo.	"item.minecraft.zombie_pigman_spawn_egg": "Spawn Egg #57", >>%json%
+	echo.	"item.minecraft.zombie_spawn_egg": "Spawn Egg #54", >>%json%
 	echo.	"item.minecraft.zombified_piglin_spawn_egg": "Zombie Pigman Spawn Egg", >>%json%
 	echo.	"subtitles.entity.zombified_piglin.ambient": "Zombie Pigman grunts", >>%json%
 	echo.	"subtitles.entity.zombified_piglin.angry": "Zombie Pigman grunts angrily", >>%json%
@@ -97,11 +116,31 @@
 	echo.	"block.minecraft.torch": "Ambrosiumfackel", >>%json%
 	echo.	"container.crafting": "Werkbank", >>%json%
 	echo.	"entity.minecraft.zombified_piglin": "Schweinezombie", >>%json%
+	echo.	"item.minecraft.blaze_spawn_egg": "Spawn-Ei #61", >>%json%
+	echo.	"item.minecraft.cave_spider_spawn_egg": "Spawn-Ei #59", >>%json%
+	echo.	"item.minecraft.chicken_spawn_egg": "Spawn-Ei #1", >>%json%
 	echo.	"item.minecraft.coal": "Ambrosiumkohle", >>%json%
+	echo.	"item.minecraft.cow_spawn_egg": "Spawn-Ei #92", >>%json%
+	echo.	"item.minecraft.creeper_spawn_egg": "Spawn-Ei #50", >>%json%
 	echo.	"item.minecraft.creeper_spawn_egg": "Spawn-Ei #50", >>%json%
 	echo.	"item.minecraft.emerald": "Rubin", >>%json%
+	echo.	"item.minecraft.enderman_spawn_egg": "Spawn-Ei #58", >>%json%
+	echo.	"item.minecraft.ghast_spawn_egg": "Spawn-Ei #24", >>%json%
+	echo.	"item.minecraft.magma_cube_spawn_egg": "Spawn-Ei #2", >>%json%
+	echo.	"item.minecraft.mooshroom_spawn_egg": "Spawn-Ei #4", >>%json%
+	echo.	"item.minecraft.pig_spawn_egg": "Spawn-Ei #30", >>%json%
 	echo.	"item.minecraft.raw_gold": "Golderz", >>%json%
 	echo.	"item.minecraft.raw_iron": "Eisenerz", >>%json%
+	echo.	"item.minecraft.sheep_spawn_egg": "Spawn-Ei #91", >>%json%
+	echo.	"item.minecraft.silverfish_spawn_egg": "Spawn-Ei #0", >>%json%
+	echo.	"item.minecraft.skeleton_spawn_egg": "Spawn-Ei #19", >>%json%
+	echo.	"item.minecraft.slime_spawn_egg": "Spawn-Ei #55", >>%json%
+	echo.	"item.minecraft.spider_spawn_egg": "Spawn-Ei #52", >>%json%
+	echo.	"item.minecraft.squid_spawn_egg": "Spawn-Ei #2", >>%json%
+	echo.	"item.minecraft.villager_spawn_egg": "Spawn-Ei #28", >>%json%
+	echo.	"item.minecraft.wolf_spawn_egg": "Spawn-Ei #35", >>%json%
+	echo.	"item.minecraft.zombie_pigman_spawn_egg": "Spawn-Ei #57", >>%json%
+	echo.	"item.minecraft.zombie_spawn_egg": "Spawn-Ei #54", >>%json%
 	echo.	"item.minecraft.zombified_piglin_spawn_egg": "Schweinezombie-Spawn-Ei", >>%json%
 	echo.	"subtitles.entity.zombified_piglin.ambient": "Schweinezombie grunzt", >>%json%
 	echo.	"subtitles.entity.zombified_piglin.angry": "Schweinezombie grunzt wütend", >>%json%
